@@ -1,0 +1,41 @@
+body {
+    font-family: arial;
+    background-color: rgb(45, 67, 74);
+}
+
+h1,h2{
+    font-family: monospace;
+    color:rgb(240, 195, 15)
+}
+.m1{
+    font-family: in;
+    color: aliceblue;
+}
+
+ol li a:hover{
+    padding-left: 50px;
+    font-family:initial;
+    color: aqua;
+    text-decoration: none;
+}
+ul li a:hover{
+    font-family: initial;
+    color: azure;
+    text-decoration: none;
+}
+
+.p1 {
+    font-family: monospace;
+    color: orange;
+}
+
+#p2{
+    background-color:
+    font-family: monospace;
+    color:aliceblue
+}
+.box{
+    background-color: khaki;
+    color: red;
+    margin:20px 30px 50px 40px;
+}

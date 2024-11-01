@@ -1,0 +1,95 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style the navigation bar */
+nav {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a{
+    text-decoration: none;
+    color: azure;
+}
+nav a:hover {
+    text-decoration: none;
+    color: white;
+    background-color:darkolivegreen;
+}
+
+/* Style the header section */
+header {
+    background-image: url(/p2/image/ko.avif);
+    background-size:cover ;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+}
+
+/* Style the content sections */
+.container {
+    max-width: 800px;
+    padding: 20px;
+}
+
+/* Style the menu items */
+.menu-item {
+    margin-bottom:20px;
+}
+
+.menu-item2{
+    margin: 0 auto;
+}
+
+.menu-item img {
+    width: 250px;
+}
+
+/* Style the footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+#home .container {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#menu .container {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#about .container {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.hero img{
+    background-size: cover;
+}
+/* Additional styles can be added as needed */
+
+

@@ -1,0 +1,87 @@
+body{
+    font:16/28px arial, sans-serif;
+    background-color:rgb(158, 158, 158);
+    color: #d6cccc;
+}
+
+.container {
+    width: 800px;
+    margin: auto;
+    background-color: #4d4c4c;
+}
+.header {
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+    width: 100%;
+}
+.header .judul{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+.header ul {
+    background:#333;
+    padding: 5 10px;
+    position:inherit;
+    display: inline-table;
+    width:70%;
+ }
+.header ul li {
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 10px;
+    
+}
+.header ul li a {
+    display: block;
+    padding: 25px;
+    color: #eaeaea;
+    
+}
+.header a {
+    text-decoration: none;
+    color:darkgrey
+}
+
+.header a:hover {
+    background-color:#eaeaea;
+    color: blue;
+    border-bottom:5px  solid grey;
+}
+.hero{
+    height: 500px;
+    background-size: cover;
+    background-position: 0,-180px;
+    border-top: 5px solid rgb(37, 34, 35);
+    border-bottom: 5px solid rgb(46, 46, 45);
+    background-image: url(/p2/image/hero.jpg);
+}
+
+.content {
+    padding: 20px;
+}
+.content h2{
+font-size: 25px;
+font-weight: bold;
+}
+
+.content .penulis {
+    font-size: 11px;
+    margin-top: -2px;
+}
+
+.content .penulis a {
+    color: orange;
+    text-decoration: none;
+
+}
+.footer {
+    background-color: #333;
+    padding: 20px;
+}
+.footer .copy{
+    color: #eaeaea;
+    text-align: center;
+    font-size: 15px;
+}
